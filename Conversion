@@ -1,0 +1,13 @@
+public class Time {
+	int mins1 = 3456789;
+	int years = mins1/(60*24*365);
+    int  mins = mins1%(60*24*365);
+	int days = mins/(60*24);
+
+	public static void main(String[] args) {
+		Time ob = new Time();
+       System.out.println("The number of years is: "+ob.years);
+       System.out.println("The number of days is: "+ob.days);
+	}
+
+}
